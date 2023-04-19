@@ -1,2 +1,2 @@
-# image_uplaoder_with_comment-_type_f
+# image_uplaoder_with_comment_type_f
 画像をコメント付きでアップロードする
