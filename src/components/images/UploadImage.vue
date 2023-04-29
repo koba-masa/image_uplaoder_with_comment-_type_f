@@ -13,7 +13,10 @@ const props = defineProps<Props>();
   <section class="card">
     <div class="memo">{{ props.image.memo }}</div>
     <div class="thumbnail">
-      <img :src="props.image.path" :alt="props.image.memo"/>
+      <img
+        :src="props.image.path"
+        :alt="props.image.memo"
+      >
     </div>
   </section>
 </template>
