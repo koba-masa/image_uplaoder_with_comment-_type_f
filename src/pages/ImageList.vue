@@ -14,11 +14,11 @@ const images: Array<UploadImageType> = [
   <div>
     <h1>アップロード画像一覧</h1>
     <div class="cards">
-        <UploadImage
-          v-for="image in images"
-          :key="image.id"
-          :image="image"
-        />
+      <UploadImage
+        v-for="image in images"
+        :key="image.id"
+        :image="image"
+      />
     </div>
   </div>
 </template>
